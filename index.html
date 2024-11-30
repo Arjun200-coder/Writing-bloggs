@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blogging Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://cdn-icons-png.freepik.com/256/9611/9611314.png?ga=GA1.1.783388409.1719124054&semt=ais_hybrid" >
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>My Blog</h1>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About Me</a></li>
+        <li><a href="./service.html">Service</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="hero">
+      <h2>Welcome to My Blog</h2>
+      <p>Share your thoughts and read amazing blogs!</p>
+    </div>
+  </section>
+
+  <section id="blogs">
+    <h2>Latest Blogs</h2>
+    <div id="latest-blogs" class="blog-list">
+      <!-- Latest 3 blogs will appear here -->
+    </div>
+    <button id="view-older-blogs-btn">View Older Blogs</button>
+    <div id="older-blogs" class="blog-list" style="display: none;">
+      <!-- Older blogs will appear here -->
+    </div>
+  </section>
+
+  <section id="add-blog">
+    <h2>Add a New Blog</h2>
+    <form id="blog-form">
+      <input type="text" id="title" placeholder="Enter blog title" required>
+      <textarea id="content" rows="5" placeholder="Enter blog content" required></textarea>
+      <button type="submit">Post Blog</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Vicharon or jankari ka online madhyam.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
